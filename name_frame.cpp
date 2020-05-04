@@ -10,14 +10,14 @@ int main()
     cin >> name;
 
     // build the message that wwe intend to write
-    const string greeting = "Hello, " + name + "!";
+    string greeting = "Hello, " + name + "!";
 
     // build the second and fourth lines of the output
-    const string spaces(greeting.size(), ' ');
-    const string second = "* " + spaces + " *";
+    string spaces(greeting.size(), ' ');
+    string second = "* " + spaces + " *";
 
     // build the first and fifth lines of the output
-    const string first(second.size(), '*');
+    string first(second.size(), '*');
 
     // write it all
     cout << endl;
