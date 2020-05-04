@@ -1,4 +1,4 @@
-# python-vs-c++
+# Python-vs-C++
 Comparing simple programs in Python and C++
 
 I've been working out of Python Crash Course, and was interested in learning some C++ as well.
